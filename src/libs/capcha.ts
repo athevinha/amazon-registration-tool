@@ -7,8 +7,8 @@ import check_and_action from './check_and_action.js';
 class i_art_capcha {
     page: Page;
     browser: Browser;
-    key_ = 'a20b4e7bed270afed51378edd9f8eb5a';
-    key__ = '60dd1f42ebf57d98433689f2a0ab5341';
+    key_ = process.env.TWOCAPCHA_TOKEN;
+    key__ = process.env.ANTICAPCHA_TOKEN;
     method_ = 'funcaptcha';
     surl_ = 'https://client-api.arkoselabs.com';
     publickey = '2F1CD804-FE45-F12B-9723-240962EBA6F8';

@@ -5,7 +5,7 @@ import * as dotenv from 'dotenv'
 import * as url from 'url';
 import * as _cf from "./config.js"
 import register_amazon from './controllers/register_amazon.js';
-import ExtraBrowser from './libs/extra-browser.js';
+import ExtraBrowser from './libs/extra_browser.js';
 import get_kdp_account_info_amazon from './helpers/get_kdp_account_info_amazon.js';
 import multilogin from './libs/multilogin.js';
 import { setTimeout } from 'timers/promises';

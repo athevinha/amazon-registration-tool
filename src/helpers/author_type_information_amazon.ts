@@ -1,6 +1,6 @@
 import { Browser, Page, Touchscreen } from "puppeteer";
 import check_and_action from "../libs/check_and_action.js";
-import i_art_sheet from "../libs/i_art_sheet.js";
+import i_art_sheet from "../libs/sheet.js";
 import { setTimeout } from 'timers/promises';
 export default class author_type_information_amazon {
     page: Page;

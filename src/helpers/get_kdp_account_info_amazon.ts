@@ -1,5 +1,5 @@
 import { Browser, Page } from "puppeteer";
-import i_art_sheet from "../libs/i_art_sheet.js";
+import i_art_sheet from "../libs/sheet.js";
 import cf from '../config.js'
 export default class get_kdp_account_info_amazon {
     page: Page;
