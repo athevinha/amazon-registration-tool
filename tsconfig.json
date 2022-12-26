@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "moduleDetection": "force",
+    "allowSyntheticDefaultImports": true,
+    "target": "ESNext",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "incremental": true,    
+    "resolveJsonModule": true,  
+    "skipLibCheck": true,
+  },
+}

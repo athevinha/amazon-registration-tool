@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+    "configurations": [
+        {
+            //"console": "externalTerminal" ,
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Build Project",
+            "program": "${workspaceFolder}/src/main.ts",            
+            "preLaunchTask": "npm: prestart",
+            "sourceMaps": true,
+            "smartStep": true,
+            "internalConsoleOptions": "openOnSessionStart",
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js"
+            ]
+        }
+    ]
+}
